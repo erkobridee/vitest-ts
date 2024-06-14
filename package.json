@@ -1,0 +1,36 @@
+{
+  "name": "vitest-ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vitest TypeScript project template",
+  "scripts": {
+    "start": "npm run test",
+    "test": "vitest watch",
+    "test:index": "vitest run src/index.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkobridee/vitest-ts.git"
+  },
+  "keywords": [
+    "vitest",
+    "typescript",
+    "project",
+    "template",
+    "vitest-ts"
+  ],
+  "author": "Erko Bridee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erkobridee/vitest-ts/issues"
+  },
+  "homepage": "https://github.com/erkobridee/vitest-ts#readme",
+  "devDependencies": {
+    "@types/jest": "29.5.12",
+    "@types/node": "20.14.2",
+    "esbuild": "0.21.5",
+    "typescript": "5.4.5",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "1.6.0"
+  }
+}
