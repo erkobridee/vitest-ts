@@ -48,6 +48,8 @@ npx degit erkobridee/vitest-ts ${project_name}
 
 - [Vitest](https://vitest.dev/) - Next Generation testing framework
 
+  - [Extending Matchers | Vitest Guide](https://vitest.dev/guide/extending-matchers.html)
+
   - [How to test with relative import · vitest-dev/vitest · Discussion #1285](https://github.com/vitest-dev/vitest/discussions/1285)
 
     - [[GitHub] aleclarson/vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) - Support for TypeScript's path mapping in Vite
