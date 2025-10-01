@@ -27,7 +27,7 @@
   "homepage": "https://github.com/erkobridee/vitest-ts#readme",
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "22.18.7",
+    "@types/node": "22.18.8",
     "esbuild": "0.25.10",
     "typescript": "5.9.2",
     "vite-tsconfig-paths": "5.1.4",
