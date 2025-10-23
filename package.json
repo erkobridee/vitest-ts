@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run test",
     "test": "vitest watch",
-    "test:index": "vitest run src/index.test.ts"
+    "test:index": "vitest run src/index.test.ts",
+    "test-results": "vitest run --reporter=junit --output-file=reports/test-results.xml"
   },
   "repository": {
     "type": "git",
