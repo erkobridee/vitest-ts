@@ -30,7 +30,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "24.12.2",
     "esbuild": "0.28.0",
-    "typescript": "6.0.2",
+    "typescript": "6.0.3",
     "vite-tsconfig-paths": "6.1.1",
     "vitest": "4.1.4"
   }
