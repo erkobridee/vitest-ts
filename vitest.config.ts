@@ -1,10 +1,12 @@
 // vitest.config.ts
 import { defineConfig } from 'vitest/config';
-import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [tsconfigPaths()],
   test: {
     globals: true,
+  },
+  resolve: {
+    // https://vite.dev/config/shared-options#resolve-tsconfigpaths
+    tsconfigPaths: true,
   },
 });
