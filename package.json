@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Vitest TypeScript project template",
   "scripts": {
-    "start": "npm run test",
+    "start": "pnpm test",
     "test": "vitest watch",
     "test:index": "vitest run src/index.test.ts",
     "test-results": "vitest run --reporter=junit --output-file=reports/test-results.xml",
@@ -34,10 +34,5 @@
     "typescript": "7.0.2",
     "vite-tsconfig-paths": "6.1.1",
     "vitest": "5.1.0"
-  },
-  "allowScripts": {
-    "fsevents@2.3.3": true,
-    "esbuild@0.28.2": true,
-    "esbuild@0.25.12": true
   }
 }
