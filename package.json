@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "description": "Vitest TypeScript project template",
   "scripts": {
-    "start": "npm run test",
+    "start": "pnpm test",
     "test": "vitest watch",
     "test:index": "vitest run src/index.test.ts",
-    "test-results": "vitest run --reporter=junit --output-file=reports/test-results.xml"
+    "test-results": "vitest run --reporter=junit --output-file=reports/test-results.xml",
+    "tsc": "npx tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,8 @@
     "@types/jest": "30.0.0",
     "@types/node": "26.6.6",
     "esbuild": "0.28.2",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vite-tsconfig-paths": "6.1.1",
-    "vitest": "4.1.12"
+    "vitest": "5.1.0"
   }
 }
