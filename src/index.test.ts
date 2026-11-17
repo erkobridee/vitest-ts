@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import { greetings } from '~/index';
 
 describe('Lexer', () => {
