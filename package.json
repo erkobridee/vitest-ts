@@ -29,7 +29,7 @@
   "homepage": "https://github.com/erkobridee/vitest-ts#readme",
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "26.6.6",
+    "@types/node": "26.6.10",
     "esbuild": "0.28.2",
     "typescript": "7.0.2",
     "vitest": "5.1.1"
